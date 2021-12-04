@@ -53,6 +53,7 @@ table, th, td {
 }
 
 .my-title {
+    border-bottom: none;
     color: black;
     font-size: 1.5em;
     padding-top: 5px;
@@ -79,6 +80,13 @@ h2 {
   padding-bottom: 10px;
   text-align: center;
   width: 100%;
+  font-family: Helvetica;
+}
+
+h3 {
+  color:rgb(187, 162, 22);
+  font-weight: 100;
+  font-size: 24px;
   font-family: Helvetica;
 }
 
