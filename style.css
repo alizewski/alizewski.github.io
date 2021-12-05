@@ -2,13 +2,14 @@
 
 body {
   /* Old browsers */
-  background: #141E30;
+  background: #15223a;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #445970, #141E30);
+  background: -webkit-linear-gradient(-45deg, #38526d, #15223a);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #445970, #141E30);
+  background: linear-gradient(-45deg, #38526d, #15223a);
   margin: 0;
   padding: 30px;
+  font-family: 'Helvetica Neue';
 }
 
 /* header background image */
@@ -39,8 +40,10 @@ h1.my-name {
   font-size: 3em;
   padding-top: 30px;
   width: 100%;
-  font-family: 'Helvetica';
+  font-family: 'Helvetica Neue';
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 table, th, td {
@@ -55,10 +58,10 @@ table, th, td {
 
 .my-title {
     border-bottom: none;
-    color: black;
-    font-size: 1.5em;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    padding-top: 0px;
+    padding-bottom: 10px;
     width: 100%;
     font-family: Helvetica;
     font-weight: bold;
@@ -74,7 +77,7 @@ table, th, td {
 
 h2 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 100;
   font-size: 22px;
   line-height: 24px;
@@ -92,7 +95,7 @@ h3 {
 }
 
 p, ol {
-  color: #cae2d4;
+  color: #d8f1e3;
   line-height: 1.3em;
   text-align: left;
   width: 100%;
@@ -103,6 +106,11 @@ p, ol {
 .content {
   padding: 20px;
   background-color:rgba(129, 142, 155, 0.4);
+}
+
+footer {
+  padding: 10px;
+  background-color:rgba(124, 192, 175, 0.4);
 }
 
 /* Navbar container */
@@ -173,4 +181,39 @@ p, ol {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  form{
+    text-align: center; 
+    width: 80%; 
+    margin: 0 auto;
+  }
+
+  input{
+    font-weight: 300; 
+    width: 100%; 
+    font-size: 25px; 
+    border: 0px;
+    color: #4b545f; 
+    font-family: "Helvetica Neue", Helvetica, Sans-serif; 
+    margin: 2%;
+  }
+
+  #long-message {
+    font-weight: 300; 
+    width: 100%; 
+    font-size: 25px; 
+    border: 0px;
+    color: #4b545f; 
+    font-family: "Helvetica Neue", Helvetica, Sans-serif; 
+    margin: 2%;
+    padding-bottom: 20%;
+  }
+  
+  button {
+    border: 2px solid #ddd; 
+    padding: 3%; 
+    margin: 5%; 
+    width: 50%;
+    font-size: 1em;
   }
