@@ -173,7 +173,7 @@ p, ol {
 .content {
   padding-bottom: 20px;
   margin: 20px auto;
-  width: 560px;
+  width: 60%;
   position: relative;
   background-color:rgba(129, 142, 155, 0.4);
 }
