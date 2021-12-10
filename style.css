@@ -172,13 +172,15 @@ p, ol {
 
 .content {
   padding-bottom: 20px;
-  margin-top:20px;
-  margin-bottom: 30px;
+  margin: 20px auto;
+  width: 560px;
+  position: relative;
   background-color:rgba(129, 142, 155, 0.4);
 }
 
 footer {
   background-color:rgba(124, 192, 175, 0.4);
+  margin: 0 10px;
 }
 
 .contact-link {
