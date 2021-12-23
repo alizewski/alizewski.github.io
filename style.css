@@ -122,7 +122,7 @@ table, th, td {
 }
 
 table {
-  margin: 0 auto;
+  margin: auto 10px;
 }
 
 .links {
@@ -140,7 +140,6 @@ h2 {
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
-  width: 100%;
   font-family: Helvetica;
 }
 
@@ -173,17 +172,42 @@ p, ol {
 .content {
   padding-bottom: 30px;
   margin: 20px auto;
-  width: 70%;
+  width: 80%;
+  min-width: 450px;
   position: relative;
   background-color:rgba(129, 142, 155, 0.4);
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer {
   background-color:rgba(124, 192, 175, 0.4);
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.linkedin, .email {
+  flex-basis: 10em;
+  background-color: rgba(124, 192, 175, 0.4);
+  border-radius: 15px;
+}
+
+.socials p {
+  color: #ddd;
+  align-items: center;
+
 }
 
 .contact-link {
